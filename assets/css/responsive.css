@@ -1,0 +1,599 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .hero-img img {
+        max-width: 655px;
+    }
+    
+    .footer-info {
+        margin-left: -20px;
+        font-size: 16px;
+    }
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .menu-area nav ul li a {
+        margin-left: 40px;
+    }
+    .hero-img img {
+        max-width: 508px;
+    }
+    
+    .footer-info {
+        margin-left: -20px;
+        font-size: 16px;
+    }
+    .hero_content h1 {
+        font-size: 55px;
+    }
+    
+    .hero_content {
+        margin-top: 20px;
+    }
+    
+    .hero_content p {
+        max-width: 370px;
+    }
+    
+    .hc_extra {
+        gap: 20px;
+    }
+    
+    .title {
+        font-size: var(--f48);
+    }
+    
+    .solar-area .title {
+        text-align: center;
+    }
+    
+    .solar_text > p {
+        margin-bottom: 70px;
+    }
+    
+    .solar_text ul li {
+        flex: 0 0 48%;
+    }
+    
+    .elevate-text h1 {
+        font-size: var(--f32);
+    }
+    
+    .step_blk {
+        padding: var(--f36) var(--f20);
+    }
+    
+    .step_blk p {
+        font-size: var(--f18);
+    }
+    
+    .step_blk ul li {
+        font-size: 16px;
+    }
+    
+    .step_blk ul {
+        gap: 17px;
+    }
+    
+    .step_blk p.Check-if {
+        font-size: 13px;
+    }
+    
+    .washClub-img {
+        max-width: 45%;
+    }
+    
+    .washClub_wrp ul {
+        gap: 40px;
+    }
+    
+    .reviwe_blk {
+        padding: var(--f24);
+    }
+    
+    .circle {
+        max-width: 405px;
+        bottom: 0;
+        right: 0;
+    }
+    
+    .expert_wrp {
+        padding-left: 40px;
+    }
+    
+    .expert_wrp .hc_extra {
+        width: max-content;
+        position: relative;
+    }
+    
+    section.expert-area .zipCode {
+        margin: var(--f40) 0;
+    }
+    
+    .refer-blk img {
+        min-height: 340px;
+        object-fit: cover;
+    }
+    .footer-nav ul.flex li {
+        flex: 0 0 45%;
+    }
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    :root{
+        --f18 : 16px;
+        --f20 : 18px;
+        --f22 : 20px;
+        --f24 : 22px;
+        --f28 : 24px;
+        --f30 : 26px;
+        --f32 : 28px;
+        --f36 : 32px;
+        --f40: 34px;
+        --f48 : 40px;
+        --f66: 52px;
+        --f72 : 60px;
+        --f80: 60px;
+        --f86 : 66px;
+      }
+    .hero-img {
+        display: none;
+    }
+    .hero-area {
+        padding: 0px 0 150px;
+    }
+    
+    .solar_text > p {
+        margin-bottom: 60px;
+    }
+    
+    .solar_text ul li {
+        flex: 0 0 45%;
+    }
+    
+    .solar_text ul li p {
+        max-width: 150px;
+    }
+    
+    .elevate-img {
+        max-width: 500px;
+        margin: auto;
+    }
+    
+    .elevate-text {
+        margin: auto !important;
+        border-top: none;
+        text-align: center;
+        border-bottom: 1px solid var(--gray40);
+        padding-bottom: var(--f80);
+    }
+    
+    .elevate-text a {
+        margin: auto;
+        width: max-content;
+    }
+    
+    .flex-change {
+        flex-direction: column-reverse;
+    }
+    
+    .mb_150 {
+        margin-bottom: 100px;
+    }
+    
+    .elevate-area .row:last-child .elevate-text {
+        border-bottom: none;
+    }
+    
+    .py_150 {
+        padding: 100px 0;
+    }
+    
+    .step-one ul li b:after {
+        height: 70px;
+    }
+    
+    .step_blk {
+        margin: 12px 0;
+    }
+    
+    .washClub-img {
+        max-width: 320px;
+    }
+    
+    .washClub_wrp ul {
+        gap: var(--f20);
+        padding-left: 30px;
+    }
+    
+    .washClub_wrp ul li p {
+        font-size: 16px;
+    }
+    
+    .washClub_wrp ul li h4 {
+        font-size: var(--f20);
+    }
+    
+    .reviwe_blk {
+        padding: var(--f20);
+    }
+    
+    .reviwe_text p {
+        font-size: 16px;
+        max-width: 200px;
+        display: block;
+    }
+    
+    .reviwe_user h5 {
+        font-size: 14px;
+    }
+    
+    .reviwe_user i {
+        width: 40px;
+        height: 40px;
+        font-size: var(--f20);
+    }
+    
+    .reviwe_user p {
+        font-size: 14px;
+    }
+    
+    .my_150 {
+        margin: 100px 0;
+    }
+    
+    .expert_wrp {
+        padding-left: 0;
+    }
+    
+    section.expert-area .zipCode {
+        margin: 40px auto;
+    }
+    
+    .expert-content {
+        text-align: center;
+    }
+
+    
+    .expert_wrp .hc_extra {
+        justify-content: center;
+        margin-bottom: 0;
+    }
+    
+    img.circle {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -50px;
+        max-width: 500px;
+    }
+    
+    .refer-area h1 {
+        text-align: center;
+    }
+    
+    .refer-blk {
+        max-width: 580px;
+        margin-inline: auto;
+    }
+    
+    .footer-nav {
+        margin: 40px 0;
+    }
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    :root{
+        --f18 : 16px;
+        --f20 : 18px;
+        --f22 : 20px;
+        --f24: 20px;
+        --f28 : 24px;
+        --f30 : 26px;
+        --f32 : 28px;
+        --f36 : 32px;
+        --f40: 28px;
+        --f48 : 40px;
+        --f66: 36px;
+        --f72 : 60px;
+        --f80: 60px;
+        --f86: 44px;
+    }
+    .mb_150 {
+        margin-bottom: 80px;
+    }
+    .my_150 {
+        margin: 80px 0;
+    }
+    .py_150 {
+        padding: 80px 0;
+    }
+    .mobile-menu{
+    width: 100%;
+}
+.container{
+    padding: 0 20px;
+}
+/* ===========Home Page Start=============== */
+.hero-img {
+    display: none;
+}
+.hero-area {
+    padding: 0px 0 115px;
+}
+
+.solar_text > p {
+    margin-bottom: 48px;
+}
+
+.solar_text ul {
+    margin-bottom: 50px;
+}
+
+p {
+}
+
+.solar_text ul li {
+    flex: 0 0 45%;
+}
+
+.solar_text ul li h1 {
+    font-size: 24px;
+}
+
+.solar_text ul li p {
+    max-width: 150px;
+}
+
+.elevate-img {
+    max-width: 500px;
+    margin: auto;
+}
+
+.elevate-text {
+    margin: auto !important;
+    border-top: none;
+    border-bottom: 1px solid var(--gray40);
+    padding-bottom: var(--f80);
+}
+
+.elevate-text a {
+    width: max-content;
+}
+
+.flex-change {
+    flex-direction: column-reverse;
+}
+
+
+.elevate-area .row:last-child .elevate-text {
+    border-bottom: none;
+}
+
+
+.hero_content {margin-top: 50px;}
+.step-one ul li b:after {
+    height: 70px;
+}
+
+.step_blk {
+    margin: 12px 0;
+}
+
+.washClub-img {max-width: 100%;}
+
+.washClub_wrp ul {
+    gap: var(--f48);
+    padding: 30px;
+}
+
+.washClub_wrp ul li {
+    flex-direction: column;
+    gap: 16px;
+}
+
+.washClub_wrp ul li p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.washClub_wrp ul li h4 {
+    font-size: var(--f20);
+}
+
+.reviwe_blk {
+    padding: var(--f20);
+}
+
+.reviwe_text p {
+    font-size: 16px;
+}
+
+.reviwe_user h5 {
+    font-size: 14px;
+}
+
+.reviwe_user i {
+    width: 40px;
+    height: 40px;
+    font-size: var(--f20);
+}
+
+.reviwe_user p {
+    font-size: 14px;
+}
+
+
+
+.expert_wrp {
+    padding-left: 0;
+    padding-bottom: 80px;
+}
+
+section.expert-area .zipCode {
+    margin: 40px auto;
+}
+
+.expert-content {
+}
+
+
+.expert_wrp .hc_extra {
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+img.circle {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -50px;
+    max-width: 309px;
+}
+
+.refer-area h1 {
+}
+
+.refer-blk {
+    max-width: 580px;
+    margin-inline: auto;
+    margin-top: 35px;
+    height: 370px;
+}
+
+.refer-blk img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.footer-nav {
+    margin: 40px 0 0;
+}
+
+.zipCode_input {
+    flex-direction: column;
+}
+
+.zipCode_input button {
+    width: 100%;
+    font-weight: 700;
+}
+
+.zipCode_input input {
+    height: 56px;
+}
+
+.zipCode b {
+    margin-bottom: 24px;
+}
+
+.hc_extra {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.solar-area {
+    border-radius: 40px;
+    padding-top: 60px;
+}
+
+.solar-area .title {
+    margin-bottom: 24px;
+}
+
+.reviwe_slider {
+    display: block !important;
+    max-width: ;
+}
+
+.reviwe_slider .owl-dots {margin-top: 50px;}
+.step-area {
+    border-radius: 40px;
+}
+
+.step-one ul {
+    margin-bottom: -40px;
+}
+
+.laundry-content h1 {text-align: center;}
+
+.zipCode {
+    width: 100%;
+}
+
+.laundry-area {
+    padding-top: 140px;
+}
+
+.washClub_wrp {
+    flex-direction: column-reverse;
+    padding-bottom: 30px;
+}
+
+.washClub_wrp ul li i {
+    width: 48px;
+    height: 48px;
+}
+
+.washClub_wrp ul li i img {
+    scale: .7;
+}
+
+.reviwe_title {
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+}
+
+.expert-area {
+    background: var(--blue50);
+}
+
+.expert_img {
+    margin-top: 60px;
+    margin-bottom: -120px;
+}
+
+.refer_text {
+    max-width: 280px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.footer-nav ul {
+    flex-direction: row;
+}
+
+.footer-nav ul li {
+    flex: 0 0 45%;
+}
+
+.footer-info {
+    margin-top: 40px;
+}
+
+.footer_btm {
+    flex-direction: column-reverse;
+    gap: 10px;
+    margin-top: 40px;
+}
+/* ===========Home Page End=============== */
+
+
+/* ===========Page Start=============== */
+/* ===========Page End=============== */
+
+
+/* ===========Page Start=============== */
+/* ===========Page End=============== */
+ 
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
